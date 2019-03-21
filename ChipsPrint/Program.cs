@@ -9,6 +9,7 @@ namespace ChipsPrint
 {
     class Program
     {
+        [STAThreadAttribute]
         static void Main(string[] args)
         {
             Options options = ExtractOptions(args[0]);
